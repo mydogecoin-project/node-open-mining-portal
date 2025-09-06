@@ -12,11 +12,11 @@ var poolKeys;
 function buildChartData(){
 
     var pools = {};
-
+    const allowedPools = ["mydogecoin"]; 
     poolKeys = [];
     for (var i = 0; i < statData.length; i++){
         for (var pool in statData[i].pools){
-            if (poolKeys.indexOf(pool) === -1)
+            if (allowedPools.indexOf(pool) !== -1 && poolKeys.indexOf(pool) === -1)
                 poolKeys.push(pool);
         }
     }
