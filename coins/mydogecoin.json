@@ -1,0 +1,7 @@
+{
+    "name": "Mydogecoin",
+    "symbol": "MYDOGE",
+    "algorithm": "scrypt",
+    "peerMagic": "c7c7c7c7",
+    "peerMagicTestnet": "fcc1b7dc"
+}
