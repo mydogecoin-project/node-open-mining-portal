@@ -1,0 +1,7 @@
+{
+    "name": "Briskcoin",
+    "symbol": "BKC",
+    "algorithm": "sha256",
+    "peerMagic": "f7bfc2dc",
+    "peerMagicTestnet": "0b110907"
+}
